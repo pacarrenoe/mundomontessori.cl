@@ -9,6 +9,7 @@
   justify-content: center;
   color: white;
   text-align: center;
+  min-height: 100vh;
 }
 
 .overlay {
@@ -22,6 +23,8 @@
 
 .banner-content {
   position: relative;
+  max-width: 100rem;
+  padding: 0 2rem;
 }
 .banner-content h1 {
   font-family: var(--fuente-titulo-a);

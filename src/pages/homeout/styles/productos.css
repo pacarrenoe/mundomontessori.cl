@@ -1,3 +1,21 @@
 .products {
+  max-width: 150rem;
+  margin: 4rem auto;
+}
+
+.products__description {
   margin: 2rem 0;
+}
+
+.products__description h3 {
+  font-family: var(--fuente-descripcion);
+  text-align: center;
+  font-size: var(--tamaño-fuente-dos);
+}
+
+.products__description p {
+  margin: 2rem 0 5rem;
+  text-align: center;
+  font-size: var(--fuente-regular);
+  font-size: var(--tamaño-fuente-tres);
 }

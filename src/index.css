@@ -26,13 +26,17 @@
 :root {
   --fuente-regular: "Jost-Regular";
   --fuente-titulo-a: "Satisfy-Regular";
+  --fuente-descripcion: "Roboto-Bold";
 
   /* colores */
   --color-principal: #14b6b6;
   --color-principal-oscuro: #179b9b;
 
   /* personalizado */
+  --tamaño-fuente-logo: clamp(1rem, 3vw, 1.8rem);
   --tamaño-fuente-uno: clamp(1rem, 3vw, 1.5rem);
+  --tamaño-fuente-dos: clamp(1.5rem, 3vw, 3rem);
+  --tamaño-fuente-tres: clamp(1rem, 3vw, 2rem);
 }
 
 * {

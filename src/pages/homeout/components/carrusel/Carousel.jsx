@@ -17,7 +17,7 @@ const Carousel = () => {
     1200: { items: 3 },
     1400: { items: 4 },
     1600: { items: 4 },
-    1800: { items: 5 },
+    1800: { items: 4 },
   };
 
   const [products, setProducts] = useState([]);

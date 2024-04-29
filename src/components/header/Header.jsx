@@ -13,20 +13,25 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <img src={Logo} alt="Logo" />
-        <h1>Mundo montessori</h1>
+        <h1>Mundo Montessori</h1>
       </div>
 
-      <nav className={`nav ${isOpen ? "open" : ""}`}>
+      <nav className={`nav ${isOpen ? "open" : ""}`} role="navigation">
         <ul>
           <li>
-            <a href="#productos">PRODUCTOS</a>
+            <a href="#productos" onClick={toggleMenu}>
+              PRODUCTOS
+            </a>
           </li>
           <li>
-            <a href="#politicas">POLÍTICAS</a>
+            <a href="#politicas" onClick={toggleMenu}>
+              POLÍTICAS
+            </a>
           </li>
-
           <li>
-            <a href="#nosotros">NOSOTROS</a>
+            <a href="#nosotros" onClick={toggleMenu}>
+              NOSOTROS
+            </a>
           </li>
         </ul>
       </nav>
@@ -43,8 +48,13 @@ const Header = () => {
         </a>
       </div>
 
-      <div className="menu-button" onClick={toggleMenu}>
-        <span>☰</span>
+      <div
+        className={`menu-button ${isOpen ? "open" : ""}`}
+        onClick={toggleMenu}
+        aria-label="Toggle Menu"
+        role="button"
+      >
+        ☰
       </div>
     </header>
   );
