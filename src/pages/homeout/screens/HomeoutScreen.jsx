@@ -2,10 +2,13 @@ import React from "react";
 import "../styles/homeout.css";
 import Banner from "../../../components/banner/Banner";
 
+import Productos from "../components/productos/Productos";
+
 const HomeoutScreen = () => {
   return (
-    <div className="main-container">
+    <div>
       <Banner></Banner>
+      <Productos></Productos>
     </div>
   );
 };

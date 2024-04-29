@@ -71,3 +71,8 @@ a {
   color: #000;
   text-decoration: none;
 }
+
+.main-container {
+  margin: auto;
+  max-width: 1658px;
+}

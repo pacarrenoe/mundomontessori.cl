@@ -35,6 +35,7 @@
 .nav ul li a {
   text-decoration: none;
   font-size: var(--tamaño-fuente-uno);
+  font-weight: 600;
 }
 
 .social-links {
@@ -45,6 +46,7 @@
 .social-links a {
   text-decoration: none;
   font-size: var(--tamaño-fuente-uno);
+  font-weight: 600;
 }
 
 .menu-button {

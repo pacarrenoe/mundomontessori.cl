@@ -6,13 +6,13 @@ import HomeoutScreen from "../pages/homeout/screens/HomeoutScreen";
 
 const RouterMain = () => {
   return (
-    <>
+    <div>
       <Header />
       <Routes>
         <Route path="/*" element={<HomeoutScreen />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 };
 
