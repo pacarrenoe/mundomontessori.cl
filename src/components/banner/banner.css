@@ -21,22 +21,28 @@
 }
 
 .banner-content {
-  max-width: 60rem;
   position: relative;
 }
-
-.banner-tittle {
-  font-family: var(--fuente-titulo);
+.banner-content h1 {
+  font-family: var(--fuente-titulo-a);
+  font-size: clamp(1.5rem, 3vw, 5rem);
+}
+.banner-content p {
+  font-size: clamp(1rem, 3vw, 1.8rem);
 }
 
 .cta-button {
   margin-top: 2rem;
-  padding: 1rem 2rem;
-  background-color: #007bff;
+  padding: 1.4rem 2.8rem;
+  background-color: #08989a;
   color: white;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   cursor: pointer;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+}
+.cta-button:hover {
+  background-color: var(--color-principal);
 }
 
 /* Ajustes para dispositivos móviles */

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+import Logo from "../../assets/img/homeout/logo-principal.webp";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,22 +12,21 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img src="ruta-del-logo.png" alt="Logo" />
+        <img src={Logo} alt="Logo" />
+        <h1>Mundo montessori</h1>
       </div>
 
       <nav className={`nav ${isOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <a href="#productos">PRODUCTOS</a>
           </li>
           <li>
             <a href="#politicas">POLÍTICAS</a>
           </li>
+
           <li>
             <a href="#nosotros">NOSOTROS</a>
-          </li>
-          <li>
-            <a href="#productos">PRODUCTOS</a>
           </li>
         </ul>
       </nav>

@@ -6,8 +6,19 @@
   background-color: var(--color-principal);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .logo img {
   height: 40px;
+}
+.logo h1 {
+  font-family: var(--fuente-titulo-a);
+  font-size: var(--tamaño-fuente-uno);
+  color: #f7f7f7;
 }
 
 .nav {
@@ -23,7 +34,7 @@
 
 .nav ul li a {
   text-decoration: none;
-  color: #333;
+  font-size: var(--tamaño-fuente-uno);
 }
 
 .social-links {
@@ -33,7 +44,7 @@
 
 .social-links a {
   text-decoration: none;
-  color: #333;
+  font-size: var(--tamaño-fuente-uno);
 }
 
 .menu-button {

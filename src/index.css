@@ -1,14 +1,38 @@
 @font-face {
+  font-family: "Jost-Regular";
+  src: url("../src/assets/fonts/Jost-Regular.ttf");
+}
+@font-face {
   font-family: "Pacifico-Regular";
   src: url("../src/assets/fonts/Pacifico-Regular.ttf");
 }
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../src/assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../src/assets/fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../src/assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Satisfy-Regular";
+  src: url("../src/assets/fonts/Satisfy-Regular.ttf");
+}
 
 :root {
-  --fuente-regular: "Arial, sans-serif";
-  --fuente-titulo: "Pacifico-Regular";
+  --fuente-regular: "Jost-Regular";
+  --fuente-titulo-a: "Satisfy-Regular";
 
   /* colores */
-  --color-principal: #179b9b;
+  --color-principal: #14b6b6;
+  --color-principal-oscuro: #179b9b;
+
+  /* personalizado */
+  --tamaño-fuente-uno: clamp(1rem, 3vw, 1.5rem);
 }
 
 * {

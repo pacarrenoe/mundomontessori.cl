@@ -6,7 +6,6 @@ const HomeoutScreen = () => {
   return (
     <div className="main-container">
       <Banner></Banner>
-      HomeoutScreen
     </div>
   );
 };

@@ -6,9 +6,7 @@ const Banner = () => {
     <div className="banner">
       <div className="overlay"></div>
       <div className="banner-content">
-        <h1 className="banner-tittle">
-          Descubre el mundo de la crianza Montessori.
-        </h1>
+        <h1>Descubre el mundo de la crianza Montessori.</h1>
         <p>
           ¡Explora nuestra colección de camas Montessori y da con ellos un paso
           hacia la independencia y la exploración!
