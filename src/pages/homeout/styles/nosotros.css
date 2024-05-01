@@ -1,6 +1,7 @@
 .aboutUs {
   text-align: center;
-  font-family: var(--fuente-descripcion);
+  max-width: 150rem;
+  margin: 4rem auto;
 }
 
 .aboutUs__titulo h1 {
@@ -13,7 +14,11 @@
   margin-left: 1rem;
 }
 
-.aboutUs__titulo p {
-  margin-top: 2rem;
+.aboutUs__description {
+  margin: 2rem 6rem;
+}
+
+.aboutUs__description p {
   font-size: var(--tamaño-fuente-descripcion);
+  text-align: center;
 }

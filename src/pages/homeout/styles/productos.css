@@ -1,4 +1,5 @@
 .products {
+  text-align: center;
   max-width: 150rem;
   margin: 4rem auto;
 }
@@ -7,15 +8,16 @@
   margin: 2rem 0;
 }
 
-.products__description h3 {
-  font-family: var(--fuente-descripcion);
-  text-align: center;
+.products__description h1 {
   font-size: var(--tamaño-fuente-titulos);
 }
 
+.products__description span {
+  font-family: var(--fuente-mundomontessori);
+  font-size: var(--tamaño-fuente-mundomontessori);
+  margin-left: 1rem;
+}
 .products__description p {
-  margin: 2rem 0 5rem;
-  text-align: center;
-  font-size: var(--fuente-regular);
   font-size: var(--tamaño-fuente-descripcion);
+  text-align: center;
 }

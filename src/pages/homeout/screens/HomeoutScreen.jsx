@@ -10,9 +10,9 @@ const HomeoutScreen = () => {
   return (
     <div>
       <Banner></Banner>
-      <Nosotros />
       <Productos />
       <Politicas />
+      <Nosotros />
     </div>
   );
 };

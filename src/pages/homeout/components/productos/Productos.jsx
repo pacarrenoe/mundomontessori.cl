@@ -5,11 +5,12 @@ import Carousel from "../carrusel/Carousel";
 const Productos = () => {
   return (
     <>
-      <div className="centro">Productos</div>;
       <section className="products">
         <div className="products__description">
-          <h3>Explora nuestros productos</h3>
-          <p>Trabajamos distintos tipos de modelos, nuestra madera de 2x2</p>
+          <h1>
+            Bienvenido a <span>Mundo Montessori</span>
+          </h1>
+          <p>Explora nuestra variedad de productos</p>
         </div>
         <Carousel></Carousel>
       </section>
