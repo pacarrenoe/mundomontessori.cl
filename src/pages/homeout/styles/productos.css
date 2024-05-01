@@ -10,12 +10,12 @@
 .products__description h3 {
   font-family: var(--fuente-descripcion);
   text-align: center;
-  font-size: var(--tamaño-fuente-dos);
+  font-size: var(--tamaño-fuente-titulos);
 }
 
 .products__description p {
   margin: 2rem 0 5rem;
   text-align: center;
   font-size: var(--fuente-regular);
-  font-size: var(--tamaño-fuente-tres);
+  font-size: var(--tamaño-fuente-descripcion);
 }

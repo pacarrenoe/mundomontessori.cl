@@ -25,7 +25,7 @@
 
 :root {
   --fuente-regular: "Jost-Regular";
-  --fuente-titulo-a: "Satisfy-Regular";
+  --fuente-mundomontessori: "Satisfy-Regular";
   --fuente-descripcion: "Roboto-Bold";
 
   /* colores */
@@ -34,9 +34,10 @@
 
   /* personalizado */
   --tamaño-fuente-logo: clamp(1rem, 3vw, 1.8rem);
-  --tamaño-fuente-uno: clamp(1rem, 3vw, 1.5rem);
-  --tamaño-fuente-dos: clamp(1.5rem, 3vw, 3rem);
-  --tamaño-fuente-tres: clamp(1rem, 3vw, 2rem);
+  --tamaño-fuente-header: clamp(1rem, 3vw, 1.5rem);
+  --tamaño-fuente-titulos: clamp(1.5rem, 3vw, 3rem);
+  --tamaño-fuente-mundomontessori: clamp(1.5rem, 3vw, 4rem);
+  --tamaño-fuente-descripcion: clamp(1rem, 3vw, 2rem);
 }
 
 * {
@@ -79,4 +80,11 @@ a {
 .main-container {
   margin: auto;
   max-width: 1658px;
+}
+
+.centro {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+  background: #179b9b;
 }

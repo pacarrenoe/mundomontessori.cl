@@ -16,7 +16,7 @@
   height: 40px;
 }
 .logo h1 {
-  font-family: var(--fuente-titulo-a);
+  font-family: var(--fuente-mundomontessori);
   font-size: var(--tamaño-fuente-logo);
   color: #f7f7f7;
 }
@@ -34,7 +34,7 @@
 
 .nav ul li a {
   text-decoration: none;
-  font-size: var(--tamaño-fuente-uno);
+  font-size: var(--tamaño-fuente-header);
   font-weight: 600;
   color: #f7f7f7;
 }
@@ -46,7 +46,7 @@
 
 .social-links a {
   text-decoration: none;
-  font-size: var(--tamaño-fuente-uno);
+  font-size: var(--tamaño-fuente-header);
   font-weight: 600;
   color: #f7f7f7;
 }

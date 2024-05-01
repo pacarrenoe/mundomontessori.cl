@@ -1,0 +1,19 @@
+.aboutUs {
+  text-align: center;
+  font-family: var(--fuente-descripcion);
+}
+
+.aboutUs__titulo h1 {
+  font-size: var(--tamaño-fuente-titulos);
+}
+
+.aboutUs span {
+  font-family: var(--fuente-mundomontessori);
+  font-size: var(--tamaño-fuente-mundomontessori);
+  margin-left: 1rem;
+}
+
+.aboutUs__titulo p {
+  margin-top: 2rem;
+  font-size: var(--tamaño-fuente-descripcion);
+}

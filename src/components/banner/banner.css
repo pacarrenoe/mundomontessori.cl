@@ -27,7 +27,7 @@
   padding: 0 2rem;
 }
 .banner-content h1 {
-  font-family: var(--fuente-titulo-a);
+  font-family: var(--fuente-mundomontessori);
   font-size: clamp(1.5rem, 3vw, 5rem);
 }
 .banner-content p {
