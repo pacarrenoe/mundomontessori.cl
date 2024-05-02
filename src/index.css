@@ -86,3 +86,11 @@ a {
   max-width: 150rem;
   margin: 4rem auto;
 }
+
+.products,
+.carousel__products,
+.aboutUs {
+  text-align: center;
+  max-width: 150rem;
+  margin: 4rem auto;
+}

@@ -1,9 +1,3 @@
-.carousel__products {
-  max-width: 200rem;
-
-  margin: auto;
-}
-
 .card__product {
   display: grid;
   max-width: 120rem;
