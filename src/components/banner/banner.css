@@ -29,6 +29,7 @@
 .banner-content h1 {
   font-family: var(--fuente-mundomontessori);
   font-size: clamp(1.5rem, 3vw, 5rem);
+  font-weight: 600;
 }
 .banner-content p {
   font-size: clamp(1rem, 3vw, 1.8rem);

@@ -4,6 +4,7 @@
 
 .products__description h1 {
   font-size: var(--tamaño-fuente-titulos);
+  font-weight: 600;
 }
 
 .products__description span {

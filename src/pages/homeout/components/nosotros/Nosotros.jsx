@@ -7,7 +7,7 @@ const Nosotros = () => {
   return (
     <>
       <section className="aboutUs">
-        <div className="aboutUs__titulo">
+        <div className="aboutUs__title">
           <h1>¿Quienes somos?</h1>
         </div>
         <div className="aboutUs__description">

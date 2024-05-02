@@ -1,0 +1,14 @@
+.policy__title h1 {
+  font-size: var(--tamaño-fuente-titulos);
+  font-weight: 600;
+}
+
+.policy__description {
+  margin: 2rem 6rem;
+}
+.policy__description p {
+  font-size: var(--tamaño-fuente-descripcion);
+}
+.policy__description b {
+  text-decoration: underline;
+}

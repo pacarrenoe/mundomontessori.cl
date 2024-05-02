@@ -1,13 +1,6 @@
-
-
-.aboutUs__titulo h1 {
+.aboutUs__title h1 {
   font-size: var(--tamaño-fuente-titulos);
-}
-
-.aboutUs span {
-  font-family: var(--fuente-mundomontessori);
-  font-size: var(--tamaño-fuente-mundomontessori);
-  margin-left: 1rem;
+  font-weight: 600;
 }
 
 .aboutUs__description {
