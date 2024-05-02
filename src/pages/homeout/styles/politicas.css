@@ -12,3 +12,46 @@
 .policy__description b {
   text-decoration: underline;
 }
+
+.policy__acordeon {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.policy__acordeon .accordion-button {
+  font-size: var(--tamaño-fuente-descripcion);
+  font-weight: 600;
+  padding-left: 2rem;
+}
+
+.policy__acordeon .accordion-button:not(.collapsed) {
+  color: #088080;
+  background-color: #14b6b634;
+}
+
+.policy__acordeon .accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.policy__content {
+  text-align: justify;
+
+  margin: 0 2rem;
+}
+
+.policy__content p {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: clamp(1rem, 3vw, 1.8rem);
+}
+
+.policy__content b {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.policy__content ol,
+.policy__content ul {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+}

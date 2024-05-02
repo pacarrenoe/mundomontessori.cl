@@ -25,7 +25,7 @@ const Politicas = () => {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Accordion Item #1
+                  Política de venta y despachos.
                 </button>
               </h2>
               <div
@@ -35,79 +35,124 @@ const Politicas = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <div className="policy__content">
+                    <p>
+                      Realizamos despachos e instalaciones en las siguientes
+                      regiones:
+                    </p>
+                    <ol>
+                      <li>Región Metropolitana.</li>
+                      <li>Región de Valparaíso.</li>
+                    </ol>
+                    <p>
+                      Proceso de compra, <b>dentro</b> de las regiones
+                      indicadas.
+                    </p>
+                    <ul>
+                      <li>
+                        Para realizar un pedido dentro de las regiones
+                        mencionadas, solicitamos el <b>abono</b> del valor
+                        correspondiente al <b>despacho e instalación</b>. De
+                        esta manera, una vez que el producto llega a su
+                        domicilio, le pediremos que lo revise detenidamente,{" "}
+                        <b>
+                          si todo está en orden y cumple con sus expectativas,
+                          podrá proceder con el pago.
+                        </b>
+                      </li>
+                      <li>
+                        Es importante destacar que{" "}
+                        <b>
+                          no tenemos la opción de realizar cambios de modelo ni
+                          de tamaño una vez que el producto ha sido instalado y
+                          pagado.
+                        </b>{" "}
+                        Por lo tanto, le recomendamos revisar cuidadosamente
+                        todas las características y especificaciones del
+                        producto antes de realizar la instalación y el pago,
+                        para asegurarse de que esté satisfecho con su elección.
+                      </li>
+                    </ul>
+                    <p>
+                      Proceso de compra, <b>fuera</b> de las regiones indicadas.
+                    </p>
+                    <ul>
+                      <li>
+                        Es importante tener en cuenta que los productos enviados
+                        fuera de nuestra zona de despacho deben ser{" "}
+                        <b>PAGADOS EN SU TOTALIDAD</b> antes de ser enviados por
+                        el servicio de transporte. Nosotros asumimos total
+                        responsabilidad si el producto llega roto o dañado
+                        durante el transporte, por lo que para su tranquilidad,
+                        en caso de algún incidente en el transporte, enviaremos
+                        la pieza dañada lo más rápido posible para que pueda
+                        realizar la instalación sin problemas.
+                      </li>
+                      <li>
+                        Sin embargo, es importante destacar que{" "}
+                        <b>NO SE ACEPTAN DEVOLUCIONES NI CAMBIOS DE PRODUCTO</b>{" "}
+                        para los envíos realizados a regiones. Para brindarle
+                        mayor seguridad, enviaremos todo tipo de comprobantes
+                        antes de que el producto sea enviado. De esta manera,
+                        usted podrá verificar y asegurarse de que el producto
+                        cumpla con sus expectativas antes de que sea despachado.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
-                  aria-expanded="false"
+                  aria-expanded="true"
                   aria-controls="collapseTwo"
                 >
-                  Accordion Item #2
+                  Política de devoluciones.
                 </button>
               </h2>
               <div
                 id="collapseTwo"
-                class="accordion-collapse collapse"
+                class="accordion-collapse collapse show"
                 aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample"
-              >
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <div className="policy__content">
+                    <p>
+                      Siguiendo las políticas establecidas en nuestras ventas y
+                      despachos, las devoluciones aplican unicamente cuando:
+                    </p>
+
+                    <ul>
+                      <li>
+                        En aquellos casos en los que el cliente no haya
+                        efectuado el pago del producto. Es importante tener en
+                        cuenta que esta opción solo se encuentra disponible en
+                        los lugares en los que nosotros gestionamos el despacho
+                        e instalación <b>presencial</b>.
+                      </li>
+                      <li>
+                        Es importante destacar que{" "}
+                        <b>
+                          no tenemos la opción de realizar cambios de modelo ni
+                          de tamaño una vez que el producto ha sido instalado y
+                          pagado.
+                        </b>{" "}
+                        Por lo tanto, le recomendamos revisar cuidadosamente
+                        todas las características y especificaciones del
+                        producto antes de realizar la instalación y el pago,
+                        para asegurarse de que esté satisfecho con su elección.
+                      </li>
+                    </ul>
+                    <p>
+                      Proceso de compra, <b>fuera</b> de las regiones indicadas.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
