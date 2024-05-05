@@ -44,6 +44,10 @@
   text-decoration: none;
 }
 
+.social-links.footer svg {
+  fill: var(--color-principal);
+}
+
 /* Ajustes para vista en dispositivos móviles */
 @media (max-width: 768px) {
   .footer {

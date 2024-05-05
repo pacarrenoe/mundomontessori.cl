@@ -2,33 +2,29 @@ import React from "react";
 import "../../styles/carousel.css";
 
 const Cards = ({ product }) => {
-  let numero = "+56972626938";
-  let mensaje = `Hola, estoy interesada en cotizar el producto: ${product.title}. ¿Podría darme más información?`;
+  let numero = "+56982005373";
+  let mensaje = `Hola buen día, vi el ${product.title} en su página web. ¿Podría darme más información sobre las entregas, color, material, etc? Gracias!`;
 
   return (
     <>
       <section className="card__product">
         <div className="product__img">
           <div className="product__img__container">
-            <img src="https://picsum.photos/id/1011/800/450" alt="" />
+            <img src={product.image} alt={product.title} />
           </div>
-          <div className="product__body">
+          <button className="product__button">
+            <a
+              href={`https://web.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(
+                mensaje
+              )}`}
+              target="_blank"
+            >
+              Cotiza este producto aquí
+            </a>
+          </button>
+          {/* <div className="product__body">
             <h2>{product.title}</h2>
-            <p>{product.description}</p>
-            <p>Precio: ${product.price}</p>
-          </div>
-          <div className="product__button">
-            <button>
-              <a
-                href={`https://web.whatsapp.com/send?phone=${numero}&text=${encodeURIComponent(
-                  mensaje
-                )}`}
-                target="_blank"
-              >
-                Cotizar
-              </a>
-            </button>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

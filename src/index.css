@@ -38,6 +38,7 @@
   --tamaño-fuente-titulos: clamp(1.5rem, 3vw, 3rem);
   --tamaño-fuente-mundomontessori: clamp(1.5rem, 3vw, 4rem);
   --tamaño-fuente-descripcion: clamp(1rem, 3vw, 2rem);
+  --tamaño-fuente-boton: clamp(1rem, 3vw, 1.5rem);
 }
 
 * {

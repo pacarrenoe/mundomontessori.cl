@@ -19,7 +19,7 @@
 }
 
 .product__img__container img {
-  height: 200px;
+  height: 409px;
   width: 100%;
   border-top-left-radius: 1.6rem; /* Radio de borde en la esquina superior izquierda */
   border-top-right-radius: 1.6rem; /* Radio de borde en la esquina superior derecha */
@@ -39,9 +39,24 @@
 }
 
 .product__button {
-  margin-top: auto;
+  background: #e0e0e0;
   text-align: center;
-  margin-bottom: 2rem;
+  border: none;
+  border-bottom-left-radius: 1.6rem;
+  border-bottom-right-radius: 1.6rem;
+  padding: 1rem 0;
+}
+
+.product__button:hover {
+  background-color: var(--color-principal);
+  transition: all 0.2s linear;
+}
+.product__button:hover a {
+  color: white;
+  transition: all 0.1s linear;
+}
+.product__button a {
+  font-size: var(--tamaño-fuente-boton);
 }
 
 @container card (min-width: 380px) {

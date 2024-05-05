@@ -4,7 +4,8 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import Cards from "./Cards";
 import "../../styles/carousel.css";
 
-import { fetchProducts } from "../../../../services/productService";
+// import { fetchProducts } from "../../../../services/productService";
+import products from "../../../helper/data";
 
 const Carousel = () => {
   const responsive = {
@@ -20,21 +21,16 @@ const Carousel = () => {
     1800: { items: 4 },
   };
 
-  const [products, setProducts] = useState([]);
-
   const items = products.map((product) => (
     <Cards key={product.id} product={product} />
   ));
+  const renderPrevButton = ({ isDisabled }) => {
+    return <span style={{ opacity: isDisabled ? "0.5" : 1 }}>&lt;</span>;
+  };
 
-  useEffect(() => {
-    async function fetchData() {
-      const data = await fetchProducts();
-      if (data) {
-        setProducts(data);
-      }
-    }
-    fetchData();
-  }, []);
+  const renderNextButton = ({ isDisabled }) => {
+    return <span style={{ opacity: isDisabled ? "0.5" : 1 }}>&gt;</span>;
+  };
 
   return (
     <>
@@ -43,10 +39,10 @@ const Carousel = () => {
           mouseTracking
           items={items}
           responsive={responsive}
-          infinite
-          // autoPlay
-          // autoPlayInterval={2000}
-          disableButtonsControls
+          disableDotsControls
+          disableSlideInfo={false}
+          renderPrevButton={renderPrevButton}
+          renderNextButton={renderNextButton}
         />
       </div>
     </>

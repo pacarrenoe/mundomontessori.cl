@@ -1,7 +1,15 @@
 import React from "react";
-import "./footer.css"; // Importa el archivo de estilos
+import "./footer.css";
+import {
+  IconFacebook,
+  IconInstragram,
+  IconTiktok,
+} from "../../pages/helper/Icons";
 
 const Footer = () => {
+  let urlFb = "https://www.facebook.com/profile.php?id=100069973238249";
+  let urlIg = "https://www.instagram.com/camasinfantiles_montessori";
+  let urlTk = "https://www.tiktok.com/@camas_montessori";
   return (
     <footer className="footer">
       <div className="footer-section">
@@ -28,15 +36,15 @@ const Footer = () => {
 
       <div className="footer-section">
         <h3>Redes sociales</h3>
-        <div className="social-links">
-          <a href="link-facebook" target="_blank" rel="noopener noreferrer">
-            FB
+        <div className="social-links footer">
+          <a href={urlFb} target="_blank" rel="noopener noreferrer">
+            <IconFacebook />
           </a>
-          <a href="link-twitter" target="_blank" rel="noopener noreferrer">
-            TW
+          <a href={urlIg} target="_blank" rel="noopener noreferrer">
+            <IconInstragram />
           </a>
-          <a href="link-instagram" target="_blank" rel="noopener noreferrer">
-            IG
+          <a href={urlTk} target="_blank" rel="noopener noreferrer">
+            <IconTiktok />
           </a>
         </div>
       </div>
