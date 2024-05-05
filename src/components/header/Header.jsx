@@ -1,8 +1,16 @@
 import React, { useState } from "react";
 import "./header.css";
 import Logo from "../../assets/img/homeout/logo-principal.webp";
+import {
+  IconFacebook,
+  IconInstragram,
+  IconTiktok,
+} from "../../pages/helper/Icons";
 
 const Header = () => {
+  let urlFb = "https://www.facebook.com/profile.php?id=100069973238249";
+  let urlIg = "https://www.instagram.com/camasinfantiles_montessori";
+  let urlTk = "https://www.tiktok.com/@camas_montessori";
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -19,17 +27,17 @@ const Header = () => {
       <nav className={`nav ${isOpen ? "open" : ""}`} role="navigation">
         <ul>
           <li>
-            <a href="#productos" onClick={toggleMenu}>
+            <a href="#products" onClick={toggleMenu}>
               PRODUCTOS
             </a>
           </li>
           <li>
-            <a href="#politicas" onClick={toggleMenu}>
+            <a href="#policy" onClick={toggleMenu}>
               POLÍTICAS
             </a>
           </li>
           <li>
-            <a href="#nosotros" onClick={toggleMenu}>
+            <a href="#aboutUs" onClick={toggleMenu}>
               NOSOTROS
             </a>
           </li>
@@ -37,14 +45,14 @@ const Header = () => {
       </nav>
 
       <div className={`social-links ${isOpen ? "open" : ""}`}>
-        <a href="link-facebook" target="_blank" rel="noopener noreferrer">
-          FB
+        <a href={urlFb} target="_blank" rel="noopener noreferrer">
+          <IconFacebook />
         </a>
-        <a href="link-twitter" target="_blank" rel="noopener noreferrer">
-          TW
+        <a href={urlIg} target="_blank" rel="noopener noreferrer">
+          <IconInstragram />
         </a>
-        <a href="link-instagram" target="_blank" rel="noopener noreferrer">
-          IG
+        <a href={urlTk} target="_blank" rel="noopener noreferrer">
+          <IconTiktok />
         </a>
       </div>
 

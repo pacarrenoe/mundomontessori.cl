@@ -76,6 +76,16 @@ a {
   text-decoration: none;
 }
 
+dl,
+ol,
+ul {
+  margin: 0;
+}
+ol,
+ul {
+  padding: 0;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
